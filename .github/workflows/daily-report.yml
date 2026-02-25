@@ -2,7 +2,7 @@ name: smart-office-automation
 
 on:
   schedule:
-    - cron: '30 3 * * *'   # 9:00 AM IST (3:30 UTC)
+    - cron: '*/5 * * * *'   # 9:00 AM IST (3:30 UTC)
   workflow_dispatch:
 
 jobs:
