@@ -78,5 +78,5 @@ def run_system():
         process_file(file)
 
 
-#if __name__ == "__main__":
-    #run_system()
+if __name__ == "__main__":
+    run_system()
